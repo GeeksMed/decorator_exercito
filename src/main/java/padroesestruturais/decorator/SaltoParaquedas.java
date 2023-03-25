@@ -1,7 +1,6 @@
 package padroesestruturais.decorator;
 
-public class Voo extends PostoDecorator {
-    public Voo(Posto posto) { super(posto); }
-    public float getAcrescimoSalarial() { return 499.46f; }
-    public String getNomeGraduacao() { return "Voo"; }
+public class SaltoParaquedas extends PostoDecorator {
+    public SaltoParaquedas(Posto posto) { super(posto); }
+    public float getAcrescimoSalarial() { return 251.83f; }
 }
